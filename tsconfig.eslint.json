@@ -3,5 +3,6 @@
   "include": [
     "app/**/*",
     ".eslintrc.js",
+    "babel.config.js",
   ]
 }

@@ -1,10 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { SafeAreaView, Text } from 'react-native';
 
-const MyComponent = (props) => {
-    return <div></div>;
+const Home = (): Element => {
+    return (
+        <SafeAreaView>
+            <Text>Home</Text>
+        </SafeAreaView>
+    );
 };
 
-MyComponent.propTypes = {};
-
-export default MyComponent;
+export default Home;

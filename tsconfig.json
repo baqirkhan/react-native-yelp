@@ -21,7 +21,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "lib": [
-      "esnext",
+      "esnext"
     ],
-  }
+    "jsx": "react"
+  },
+  "extends": "expo/tsconfig.base"
 }

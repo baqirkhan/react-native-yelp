@@ -48,7 +48,6 @@ module.exports = {
         ],
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
-        'react/display-name': ['error', { ignoreTranspilerName: true }],
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/no-misused-promises': [
             'error',
