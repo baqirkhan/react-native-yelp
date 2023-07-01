@@ -21,7 +21,8 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "lib": [
-      "esnext"
+      "esnext",
+      "dom"
     ],
     "jsx": "react"
   },

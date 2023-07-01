@@ -1,12 +1,16 @@
-import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import React, { useState } from 'react';
+import { SafeAreaView, Text, View, TextInput } from 'react-native';
 
-const Home = (): Element => {
+const Search = (): JSX.Element => {
+    const [query, setQuery] = useState('');
     return (
         <SafeAreaView>
-            <Text>Home</Text>
+            <View>
+                <Text>WHERE DO YOU WANT TO GO?</Text>
+            </View>
+            <TextInput onChangeText={setQuery} value={query} />
         </SafeAreaView>
     );
 };
 
-export default Home;
+export default Search;
